@@ -4,14 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-opencv-python = "*"
-black = "*"
-pillow = "*"
 obs-websocket-py = "*"
 websocket-client = "*"
-python-dotenv = "*"
 
 [dev-packages]
+python-dotenv = "*"
+black = "*"
 
 [requires]
 python_version = "3.9"
